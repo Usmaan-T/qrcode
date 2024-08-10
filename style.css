@@ -21,7 +21,7 @@ body {
     width: 100%;
 }
 
-.card, .image {
+.card, .qr-image {
     border-radius: 30px;
 }
 
@@ -31,9 +31,11 @@ body {
 
 .card-title {
     font-size: 22px;
+    text-align: center;
 }
 
 .card-desc {
     font-size: 15px;
+    text-align: center;
     color: rgb(118, 117, 117)
 }
