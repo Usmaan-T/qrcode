@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    padding: 20px
+}
+
+.qr-image {
+    width: 100%;
+}
+
+.card, .image {
+    border-radius: 30px;
+}
+
+.h1 {
+    font-size: 22px;
+}
+
+.card-title {
+    font-size: 22px;
+}
+
+.card-desc {
+    font-size: 15px;
+    color: rgb(118, 117, 117)
+}
